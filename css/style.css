@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #6d6d6d54;
+}
+.container{
+    margin-top: 10%;
+    border: 1px solid rgb(232, 252, 255);
+    border-radius: 30px;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: #6d6d6d21 ;
+}
+.scoreWrapper{
+    width: 400px;
+}
+.scoreWrapper .score{
+    font-size: 2rem;
+}
+.scoreWrapper .score span{
+    font-size: 1.4rem;
+}
+.grid{
+    width: 440px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.5),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.5);
+}
+.grid img{
+    margin: 5px;
+    
+}
